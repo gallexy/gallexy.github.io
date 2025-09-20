@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+        type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+
+<body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        
+        <!-- Custom Navigation -->
+        <nav class="main-navigation">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active" data-section="home">🏠 首页</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">👥 关于我们</a></li>
+                <li><a href="#research" class="nav-link" data-section="research">🔬 研究项目</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">📬 联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+        <!-- Home Section -->
+        <section id="home-section" class="content-section active">
+            {{ content }}
+        </section>
+
+        <!-- About Section -->
+        <section id="about-section" class="content-section">
+            <h1>关于我们</h1>
+            <p><strong>Gallexy 空间智能研究室</strong> 由一群独立研究者自发组成，以非营利、开放的方式开展研究与交流。</p>
+            
+            <p>我们的使命是：</p>
+            <ul>
+                <li>推动低碳发展与社会创新</li>
+                <li>促进跨学科研究与合作</li>
+                <li>开放分享研究成果</li>
+            </ul>
+
+            <h2>团队理念</h2>
+            <p>我们相信开放科学的力量，致力于通过协作和知识共享来解决全球挑战。每一项研究成果都将公开发布，供学术界和社会各界参考使用。</p>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research-section" class="content-section">
+            <h1>研究方向与项目</h1>
+            
+            <h3>🌱 可持续城市规划</h3>
+            <ul>
+                <li>城市形态与低碳交通研究</li>
+                <li>绿色基础设施规划</li>
+                <li>智慧城市解决方案</li>
+            </ul>
+
+            <h3>🌍 气候变化与低碳政策</h3>
+            <ul>
+                <li>碳排放监测与分析</li>
+                <li>气候适应策略研究</li>
+                <li>可再生能源政策评估</li>
+            </ul>
+
+            <h3>💡 技术与社会影响研究</h3>
+            <ul>
+                <li>人工智能社会伦理</li>
+                <li>数字化转型影响评估</li>
+                <li>科技创新与可持续发展</li>
+            </ul>
+
+            <h2>📑 最新成果</h2>
+            <ul>
+                <li>《低碳城市案例研究》 (2025)</li>
+                <li>数据集：城市碳排放趋势 (Beta)</li>
+                <li>开源工具：可持续发展指标计算器</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section" class="content-section">
+            <h1>联系方式</h1>
+            
+            <div class="contact-info">
+                <p>📧 <strong>Email:</strong> contact@gallexy-research.org</p>
+                <p>🌐 <strong>GitHub:</strong> <a href="https://github.com/gallexy" target="_blank">github.com/gallexy</a></p>
+                <p>📍 <strong>地址:</strong> 全球远程协作</p>
+            </div>
+
+            <h2>合作机会</h2>
+            <p>我们欢迎各种形式的合作与交流：</p>
+            <ul>
+                <li>学术研究合作</li>
+                <li>数据共享项目</li>
+                <li>政策咨询服务</li>
+                <li>开源项目贡献</li>
+            </ul>
+
+            <h2>加入我们</h2>
+            <p>如果您对我们的研究方向感兴趣，欢迎通过邮件联系我们。我们特别欢迎具有以下背景的研究者：</p>
+            <ul>
+                <li>城市规划与地理信息系统</li>
+                <li>环境科学与气候变化</li>
+                <li>数据科学与人工智能</li>
+                <li>政策分析与社会科学</li>
+            </ul>
+        </section>
+
+        <footer class="site-footer">
+            <span class="site-footer-owner">© 2025 Gallexy 空间智能研究室</span>
+        </footer>
+    </main>
+
+    <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+</body>
+
+</html>

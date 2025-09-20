@@ -1,6 +1,6 @@
 title: "Gallexy urban Data Intelligence Institute"
 description: "Independent nonprofit research initiative"
-theme: minimal
+theme: minima
 # 配置导航栏菜单
 header_pages:
   - about.md

@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: Research
-permalink: /research/
 ---
+
+[← 返回首页](./index) | [关于我们](./about) | [联系方式](./contact)
 
 # 研究方向与项目
 

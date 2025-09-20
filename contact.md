@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: Contact
-permalink: /contact/
 ---
+
+[← 返回首页](./index) | [关于我们](./about) | [研究项目](./research)
 
 # 联系方式
 

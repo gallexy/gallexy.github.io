@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
+
+[← 返回首页](./index) | [研究项目](./research) | [联系方式](./contact)
 
 # 关于我们
 
-**My Research Institute** 由一群独立研究者自发组成，  
+**Gallexy 空间智能研究室** 由一群独立研究者自发组成，  
 以非营利、开放的方式开展研究与交流。  
 
 我们的使命是：  

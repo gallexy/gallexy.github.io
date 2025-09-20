@@ -1,6 +1,6 @@
 title: "Gallexy urban Data Intelligence Institute"
 description: "Independent nonprofit research initiative"
-theme: minima   # Jekyll 自带主题
+theme: cayman   # Jekyll 自带主题
 # 配置导航栏菜单
 header_pages:
   - about.md

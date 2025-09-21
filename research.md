@@ -3,7 +3,7 @@ layout: default
 title: Research
 ---
 
-[← 返回首页](./index) | [关于我们](./about) | [联系方式](./contact)
+[← 返回首页](./index) | [关于我们](./index#about) | [团队介绍](./index#team) | [联系方式](./index#contact)
 
 # 研究方向与项目
 

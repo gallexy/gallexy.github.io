@@ -1,0 +1,56 @@
+team:
+  title: "团队介绍"
+  description: "Gallexy 空间智能研究室由来自不同领域的专业研究人员组成，我们通过远程协作的方式开展跨学科研究。"
+  
+  members:
+    - name: "李研究"
+      role: "首席研究员"
+      title: "城市规划与可持续发展专家"
+      education: "城市地理学博士"
+      experience: "10+ 年可持续城市规划经验"
+      specialization: "专注于低碳城市与智慧交通研究"
+      
+    - name: "王数据"
+      role: "数据科学家"
+      title: "环境数据分析与AI应用专家"
+      education: "计算机科学硕士"
+      experience: "擅长大数据处理与机器学习"
+      specialization: "专注于气候数据分析与预测模型"
+      
+    - name: "张政策"
+      role: "政策研究员"
+      title: "环境政策与社会创新研究员"
+      education: "公共政策硕士"
+      experience: "环境治理与可持续发展政策专家"
+      specialization: "专注于政策影响评估与社会创新"
+  
+  advisors:
+    - name: "陈教授"
+      affiliation: "清华大学城市规划系"
+      
+    - name: "刘教授"
+      affiliation: "北京大学环境科学系"
+      
+    - name: "杨教授"
+      affiliation: "复旦大学公共管理学院"
+  
+  partners:
+    - "MIT Urban Planning Lab"
+    - "Oxford Climate Research Institute"
+    - "Stanford Sustainable Cities Initiative"
+  
+  recruitment:
+    title: "加入我们"
+    description: "我们持续寻找志同道合的研究伙伴。如果您在以下领域有专长或兴趣，欢迎联系我们："
+    positions:
+      - role: "GIS专家"
+        description: "地理信息系统与空间分析"
+        
+      - role: "经济学家"
+        description: "环境经济与可持续发展"
+        
+      - role: "社会学家"
+        description: "社区参与与社会创新研究"
+        
+      - role: "技术开发者"
+        description: "开源工具开发与数据可视化"

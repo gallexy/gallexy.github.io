@@ -126,3 +126,158 @@
         font-size: 0.8rem;
     }
 }
+
+/* Team Section Styles */
+.team-intro {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border-left: 4px solid #159957;
+}
+
+.team-members {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.member-card {
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.member-card h3 {
+    color: #159957;
+    border-bottom: 2px solid #159957;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.member-info {
+    margin-bottom: 2rem;
+}
+
+.member-info:last-child {
+    margin-bottom: 0;
+}
+
+.member-info h4 {
+    color: #155799;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.member-info p {
+    margin-bottom: 0.8rem;
+}
+
+.member-info strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.member-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.member-info ul li {
+    padding: 0.3rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.member-info ul li::before {
+    content: "▸";
+    color: #159957;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.collaborators h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.collaborators ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.collaborators ul li {
+    padding: 0.4rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.collaborators ul li::before {
+    content: "🤝";
+    position: absolute;
+    left: 0;
+}
+
+.join-requirements h4 {
+    color: #e67e22;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.join-requirements ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.join-requirements ul li {
+    padding: 0.5rem 0;
+    padding-left: 1.8rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.join-requirements ul li::before {
+    content: "✨";
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+}
+
+.join-requirements ul li strong {
+    color: #8e44ad;
+}
+
+/* Team Responsive Design */
+@media screen and (max-width: 768px) {
+    .team-intro {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .member-card {
+        padding: 1.5rem;
+    }
+    
+    .team-members {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .member-card {
+        padding: 1rem;
+    }
+    
+    .team-intro {
+        padding: 0.8rem;
+    }
+}

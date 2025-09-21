@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-[← 返回首页](./index) | [研究项目](./research) | [联系方式](./contact)
+[← 返回首页](./index) | [团队介绍](./index#team) | [研究项目](./index#research) | [联系方式](./index#contact)
 
 # 关于我们
 

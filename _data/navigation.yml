@@ -1,0 +1,13 @@
+main:
+  - title: "首页"
+    url: /
+  - title: "关于我们"
+    url: /about/
+  - title: "团队介绍"
+    url: /team/
+  - title: "研究项目"
+    url: /research/
+  - title: "博客"
+    url: /blog/
+  - title: "联系方式"
+    url: /contact/

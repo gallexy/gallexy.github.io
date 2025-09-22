@@ -4,7 +4,7 @@ title: Gallexy 空间智能研究室
 description: Independent nonprofit research initiative
 ---
 
-# 欢迎来到 Gallexy 空间智能研究室
+# 欢迎来到 Gallexy 空间智能实验室
 
 我们是一个独立的非营利研究机构，致力于探索 **可持续发展、低碳城市与社会创新**。  
 我们的目标是用开放的研究与合作，推动知识共享与社会进步。
